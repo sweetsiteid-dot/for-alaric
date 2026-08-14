@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Our Little Love Story | Alyssa & Alaric</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<audio id="bgMusic" loop>
+    <source src="youre-still-the-one.mp3" type="audio/mpeg">
+</audio>
+
+<!-- LOADER -->
+<div id="loader">
+    <div class="loader-book"></div>
+    <p>Loading our little love story...</p>
+</div>
+
+<!-- PIN SCREEN -->
+<section id="pinScreen">
+
+    <div class="pin-card">
+
+        <h1>♡</h1>
+
+        <h2>A Little Place Made For You</h2>
+
+        <p>
+            Ada sesuatu yang aku buat khusus buat kamu.
+            <br>
+            Masukkan secret code untuk membukanya ♡
+        </p>
+
+        <input
+            type="password"
+            id="pinInput"
+            maxlength="4"
+            inputmode="numeric"
+            placeholder="••••">
+
+        <button id="unlockBtn">
+            Open My Heart ♡
+        </button>
+
+        <p id="pinError"></p>
+
+    </div>
+
+</section>
+
+<!-- MAIN CONTENT -->
+<div id="website">
+
+    <!-- COVER -->
+    <section class="hero">
+
+        <div class="floating-stars"></div>
+
+        <div class="hero-content">
+
+            <span class="badge">
+                Just For You ♡
+            </span>
+
+            <h1>
+                Alyssa
+                <span>♡</span>
+                Alaric
+            </h1>
+
+            <p>
+                A little place filled with
+                love, memories, and everything
+                I feel for you.
+            </p>
+
+            <button id="openBookBtn">
+                Open Our Story 📖
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- SCRAPBOOK -->
+    <main id="scrapbook">
+
+
+        <!-- CHAPTER 1 -->
+        <section class="chapter intro">
+
+            <div class="paper-card">
+
+                <h2>Our Little Story ♡</h2>
+
+                <p>
+                    Aku mungkin nggak punya banyak cara
+                    untuk menjelaskan seberapa berartinya
+                    kamu buat aku.
+                </p>
+
+                <p>
+                    Jadi aku bikin tempat kecil ini,
+                    khusus untuk menyimpan sedikit
+                    cerita tentang kita.
+                </p>
+
+                <p>
+                    Welcome to our little world,
+                    Alaric. ♡
+                </p>
+
+            </div>
+
+            <div class="cover-photo">
+                <img src="foto1.jpg" alt="Alyssa & Alaric">
+            </div>
+
+        </section>
+
+
+        <!-- CHAPTER 2 -->
+        <section class="chapter memories">
+
+            <h2 class="section-title">
+                Little Moments 📸
+            </h2>
+
+            <div class="polaroid-grid">
+
+                <div class="polaroid rotate-left">
+                    <div class="tape pink"></div>
+                    <img src="foto2.jpg" alt="">
+                    <span>one of my favorite moments ♡</span>
+                </div>
+
+                <div class="polaroid rotate-right">
+                    <div class="tape pink"></div>
+                    <img src="foto3.jpg" alt="">
+                    <span>you make me smile</span>
+                </div>
+
+                <div class="polaroid rotate-left">
+                    <div class="tape pink"></div>
+                    <img src="foto4.jpg" alt="">
+                    <span>just you & me</span>
+                </div>
+
+                <div class="polaroid rotate-right">
+                    <div class="tape pink"></div>
+                    <img src="foto5.jpg" alt="">
+                    <span>my favorite person</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CHAPTER 3 -->
+        <section class="chapter letter-section">
+
+            <h2 class="section-title">
+                A Little Letter For You 💌
+            </h2>
+
+            <div class="envelope-container">
+
+                <div id="openLetter" class="envelope">
+
+                    <div class="envelope-front">
+                        Open Me ♡
+                    </div>
+
+                </div>
+
+                <div id="letterPaper" class="letter-paper">
+
+                    <h3>
+                        a little letter for you ♡
+                    </h3>
+
+                    <p>
+                        Aku cuma mau bilang, thank you for being
+                        in my life. Makasih udah hadir dan jadi salah
+                        satu orang yang paling berarti buat aku.
+                        Kadang aku masih suka mikir, dari sekian
+                        banyak orang di dunia ini, kok bisa aku
+                        ketemu sama kamu? Dan jujur, aku ngerasa
+                        so lucky bisa punya kamu.
+                    </p>
+
+                    <p>
+                        Makasih buat semua hal kecil yang kamu
+                        lakuin, buat perhatian yang kamu kasih,
+                        buat waktu yang kamu luangin, dan buat semua
+                        hal sederhana yang mungkin menurut kamu
+                        biasa aja, tapi sebenarnya berarti banget
+                        buat aku. Aku mungkin nggak selalu bilang,
+                        tapi I notice everything, and I really
+                        appreciate it.
+                    </p>
+
+                    <p>
+                        Aku suka banget gimana kamu bisa jadi bagian
+                        dari hari-hariku tanpa harus melakukan sesuatu
+                        yang besar. Cukup ngobrol sama kamu, cerita hal
+                        random, bercanda nggak jelas, atau sekadar tahu
+                        kalau kamu ada, itu aja udah bisa bikin hariku
+                        terasa lebih baik.
+                    </p>
+
+                    <p>
+                        Sometimes I wonder how I got this lucky.
+                        Punya seseorang yang bisa bikin aku nyaman
+                        jadi diri sendiri, seseorang yang selalu
+                        pengen aku ceritain banyak hal, dan seseorang
+                        yang tanpa sadar jadi orang pertama yang
+                        kepikiran kalau aku punya cerita.
+                    </p>
+
+                    <p>
+                        Aku nggak tahu harus berterima kasih ke siapa
+                        karena udah mempertemukan aku sama kamu,
+                        tapi aku bersyukur banget. Bersyukur karena
+                        bisa kenal kamu, bisa sayang sama kamu, dan
+                        bisa punya begitu banyak little moments yang
+                        nantinya bakal jadi kenangan.
+                    </p>
+
+                    <p>
+                        Kalau suatu hari nanti kamu lupa seberapa
+                        berartinya kamu buat aku, please come back
+                        to this little letter. Baca lagi dan ingat
+                        kalau pernah ada seseorang yang merasa
+                        really, really lucky hanya karena bisa
+                        punya kamu di hidupnya.
+                    </p>
+
+                    <p>
+                        Thank you for existing, thank you for staying,
+                        and most importantly, thank you for being you.
+                    </p>
+
+                    <p>
+                        Aku sayang kamu. More than I could ever
+                        explain with words. ♡
+                    </p>
+
+                    <span>
+                        — Alyssa ♡
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CHAPTER 4 -->
+        <section class="chapter film-section">
+
+            <h2 class="section-title">
+                Our Film Roll 🎞️
+            </h2>
+
+            <div class="film-roll">
+
+                <div class="film-frame">
+                    <img src="foto6.jpg" alt="">
+                </div>
+
+                <div class="film-frame">
+                    <img src="foto7.jpg" alt="">
+                </div>
+
+                <div class="film-frame">
+                    <img src="foto8.jpg" alt="">
+                </div>
+
+            </div>
+
+            <p class="film-caption">
+                Little moments, big feelings. ♡
+            </p>
+
+        </section>
+
+
+        <!-- CHAPTER 5 -->
+        <section class="chapter quiz-section">
+
+            <h2 class="section-title">
+                One Little Question 🫶
+            </h2>
+
+            <div class="quiz-box">
+
+                <div class="question">
+
+                    <p>
+                        kamu sayang aku ga yaa?
+                    </p>
+
+                    <input
+                        type="text"
+                        id="answer1"
+                        placeholder="jawab jujur yaa... ♡">
+
+                </div>
+
+                <button id="checkQuiz">
+                    Answer Me ♡
+                </button>
+
+                <p id="quizResult"></p>
+
+            </div>
+
+        </section>
+
+
+        <!-- CHAPTER 6 -->
+        <section id="specialMemory" class="chapter special-memory">
+
+            <h2 class="section-title">
+                Special Memory 🤍
+            </h2>
+
+            <div class="memory-reveal">
+
+                <div class="blur-photo">
+                    <img id="specialPhoto" src="foto9.jpg" alt="">
+                </div>
+
+                <button id="revealBtn">
+                    Reveal Memory ✨
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- CHAPTER 7 -->
+        <section class="chapter counter-section">
+
+            <h2 class="section-title">
+                Our Little Memories ⏳
+            </h2>
+
+            <div class="counter-card">
+
+                <div class="counter-item">
+                    <h3 id="days">♡</h3>
+                    <span>Love</span>
+                </div>
+
+                <div class="counter-item">
+                    <h3 id="hours">♡</h3>
+                    <span>Always</span>
+                </div>
+
+                <div class="counter-item">
+                    <h3 id="minutes">∞</h3>
+                    <span>Forever</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CHAPTER 8 -->
+        <section class="chapter ending-photo">
+
+            <div class="final-card">
+
+                <img src="foto10.jpg" alt="Alyssa & Alaric">
+
+                <h2>
+                    You Are My Favorite Person ♡
+                </h2>
+
+                <p>
+                    Dari semua hal baik yang terjadi
+                    dalam hidupku, salah satu yang paling
+                    aku syukuri adalah bisa bertemu kamu.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- CHAPTER 9 -->
+        <section class="chapter secret-section">
+
+            <h2 class="section-title">
+                Hidden Message 🌟
+            </h2>
+
+            <p class="hint-text">
+                ✨ Ada pesan rahasia yang sedang menunggu.
+                Coba sentuh semua hati untuk menemukannya.
+            </p>
+
+            <p id="starProgress">
+                Find all the hearts (0/5)
+            </p>
+
+            <div class="stars-box">
+
+                <div class="star secret-star">♡</div>
+                <div class="star secret-star">♡</div>
+                <div class="star secret-star">♡</div>
+                <div class="star secret-star">♡</div>
+                <div class="star secret-star">♡</div>
+
+            </div>
+
+            <div id="secretMessage">
+
+                <p>
+                    Kalau aku boleh memilih lagi,
+                    aku tetap akan memilih kamu.
+                    Lagi, lagi, dan lagi. ♡
+                </p>
+
+                <h3>
+                    💗🌷🤍
+                </h3>
+
+            </div>
+
+        </section>
+
+
+        <!-- ENDING -->
+        <section class="chapter ending">
+
+            <div class="ending-card">
+
+                <h2>
+                    I Love You, Alaric ♡
+                </h2>
+
+                <p>
+                    Thank you for existing,
+                    thank you for staying,
+                    and thank you for being you.
+                </p>
+
+                <p>
+                    — Alyssa
+                </p>
+
+                <button id="replayBtn">
+                    Replay Our Story 📖
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+                      </html>
